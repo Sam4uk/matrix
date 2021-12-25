@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Elegant Red",
+		"workbench.iconTheme": "material-icon-theme",
+		"terminal.integrated.fontFamily": "Menlo for Powerline"
+	}
+}
