@@ -28,7 +28,8 @@ Matrix::MatrixType Matrix::At(int num_rows, int num_cols) const {
 }
 
 Matrix::MatrixType &Matrix::At(int num_rows, int num_cols) {
-  if (num_cols < 0 or num_rows < 0) throw std::out_of_range("err");
+  if (num_cols < 0 or num_rows < 0 or !m_rows or !m_columns)
+    throw std::out_of_range("out_of_range");
   return m_matrix[num_rows][num_cols];
 }
 

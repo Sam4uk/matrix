@@ -5,8 +5,11 @@
 		}
 	],
 	"settings": {
+		"C_Cpp.default.defines": [
+			"FOR_GOOGLE_TESTS=1"
+		],
 		"workbench.colorTheme": "Elegant Red",
 		"workbench.iconTheme": "material-icon-theme",
-		"terminal.integrated.fontFamily": "Menlo for Powerline"
+		"terminal.integrated.fontFamily": "Menlo for Powerline",
 	}
 }
